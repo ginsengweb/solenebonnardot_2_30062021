@@ -1,0 +1,121 @@
+body {
+  padding: 10px 5px;
+}
+/* TYPOGRAPHIE */
+h2 {
+  padding: 5px;
+  margin: 10px;
+}
+h4 {
+  padding-left: 20px;
+}
+
+/* HEADER */
+.logo {
+  height: initial;
+  width: 140px;
+}
+header {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* FILTRES */
+
+#filtres {
+  margin: 0;
+}
+#filtres p {
+  padding-right: 10px;
+}
+#filtres ul {
+  font-size: 14px;
+}
+
+/* HEBERGEMENTS ET POPULAIRES */
+#hebergements_populaires {
+  display: initial;
+}
+
+/* HEBERGEMENT */
+.hebergement {
+  padding: 10px;
+  margin: 10px auto;
+  width: 90%;
+  min-width: 560px;
+  height: initial;
+}
+.hebergementcard {
+  padding: 5px;
+  width: 46%;
+  max-width: 330px;
+  min-width: 190px;
+}
+
+/* POPULAIRES */
+.populaires {
+  width: 90%;
+  float: initial;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.populaires h2 {
+  margin: 20px;
+}
+.populairescard {
+  height: 130px;
+  margin: 10px auto;
+}
+.populairescard img {
+  object-fit: cover;
+  height: 100%;
+}
+
+/* ACTIVITES */
+#activites {
+  margin: 30px 0;
+}
+.activites {
+  height: initial;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+#activites h2 {
+  margin: 20px 0 0 20px;
+}
+.activitecard,
+.tallactivitecard,
+#ilesdufrioul,
+#fortdepomegues {
+  width: 90%;
+  height: 180px;
+  margin: 15px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.tallactivitecard img,
+#ilesdufrioul img,
+#fortdepomegues img {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  height: 75%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* FOOTER */
+.sectionfooter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+footer ul {
+  padding: 10px;
+}
+footer ul li {
+  margin: 10px;
+  font-size: 13px;
+}
