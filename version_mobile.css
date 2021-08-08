@@ -1,4 +1,240 @@
-<<<<<<< HEAD
+body {
+  padding: 0px;
+}
+
+/* TYPOGRAPHIE */
+h1 {
+  text-align: center;
+}
+h2 {
+  padding: 5px;
+  margin: 10px;
+}
+h4 {
+  padding-left: 20px;
+}
+
+/* HEADER */
+#header {
+  margin: 100px 10px 20px 10px;
+  padding: 0 10px;
+}
+#header .row p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.logo {
+  width: 30%;
+  max-width: 120px;
+  margin: 25px 20px 15px 30px;
+  padding: 0;
+}
+header {
+  padding: 0;
+  margin: 0;
+  display: initial;
+}
+
+/* NAV ET LI */
+nav {
+  width: 100%;
+}
+ul.nav {
+  padding: 0;
+}
+nav li a {
+  width: 50%;
+  border-bottom: 3px solid rgb(235, 235, 235);
+  border-top: none;
+  padding-bottom: 20px;
+  justify-content: space-around;
+}
+nav li a:hover {
+  color: #0065fc;
+  border-top: none;
+  border-bottom: 3px solid #0065fc;
+}
+nav li a:focus {
+  color: #0065fc;
+  border-top: none;
+  border-bottom: 3px solid #0065fc;
+}
+li {
+  padding-right: 0px;
+  margin: 0px;
+}
+nav ul li:first-child a {
+  color: #0065fc;
+  font-weight: 700;
+}
+#inscription {
+  margin-top: -80px;
+  padding-right: 0px;
+  border: none;
+}
+
+/* RECHERCHER */
+
+.search {
+  width: 90%;
+  margin: 10px auto;
+}
+#city {
+  width: 70%;
+  padding-left: 10px;
+  border-width: 2px;
+}
+#map {
+  width: 15%;
+}
+#button {
+  background-color: #0065fc;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  width: 15%;
+}
+#button p {
+  display: none;
+}
+#button i {
+  display: initial;
+}
+
+/* FILTRES */
+
+#filtres {
+  display: initial;
+  padding: 0 50px;
+}
+#filtres p {
+  display: flex;
+  width: 100%;
+  padding-left: 10px;
+}
+#filtres ul li {
+  font-size: 14px;
+  margin: 5px;
+  padding-right: 10px;
+}
+
+/* INFO */
+.info {
+  float: left;
+  padding: 30px 10px 0 10px;
+}
+.info p {
+  text-align: initial;
+}
+#hebergements_populaires {
+  display: flex;
+  width: 100%;
+  flex-direction: column-reverse;
+}
+/* HEBERGEMENT */
+
+.hebergement {
+  background-color: white;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.hebergement h2 {
+  margin-left: 15px;
+  padding-left: 10px;
+  font-size: 18px;
+}
+.hebergement h3 {
+  margin: 25px;
+}
+.hebergementcard {
+  width: 90%;
+  height: 200px;
+}
+.hebergementcard img {
+  height: 65%;
+  object-position: center;
+}
+.hebergementcard p {
+  font-size: 12px;
+  margin-top: 0;
+}
+.rate {
+  font-size: 10px;
+}
+.more {
+  padding: 10px;
+}
+
+/* POPULAIRES */
+
+.populaires {
+  width: 90%;
+  float: initial;
+  justify-content: space-between;
+  margin: 20px auto;
+  height: 550px;
+}
+.populaires h2 {
+  margin: 20px;
+}
+.populairescard {
+  height: 130px;
+  margin: 5px auto;
+}
+
+/* ACTIVITES */
+
+#activites {
+  display: initial;
+}
+.activites {
+  height: initial;
+  width: 100%;
+  padding: 10px 20px;
+}
+#activites h1 {
+  margin: 10px 0 0 10px;
+}
+.activitecard,
+.tallactivitecard,
+#ilesdufrioul,
+#fortdepomegues {
+  height: 160px;
+  margin: 15px 0;
+  width: 100%;
+}
+.activitecard img,
+.tallactivitecard img,
+#ilesdufrioul img,
+#fortdepomegues img {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  height: 75%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0 0;
+  padding: 25px 10px;
+}
+footer ul {
+  padding: 0;
+}
+footer ul li {
+  margin: 10px 20px;
+}
+footer h2 {
+  padding: 15px 0 0 20px;
+}
 body {
   padding: 0px;
 }
@@ -134,16 +370,13 @@ nav ul li:first-child a {
 .info p {
   text-align: initial;
 }
-.info i {
-}
-
 #hebergements_populaires {
   display: flex;
   width: 100%;
   flex-direction: column-reverse;
 }
-/* HEBERGEMENT */
 
+/* HEBERGEMENT */
 .hebergement {
   background-color: white;
   width: 100%;
@@ -175,265 +408,45 @@ nav ul li:first-child a {
 }
 
 /* POPULAIRES */
-
 .populaires {
-  width: 90%;
+  width: 100%;
+  border-radius: 0;
   float: initial;
   justify-content: space-between;
-  margin: 20px auto;
-  height: 550px;
+  margin: 20px 0;
+  padding: 10px 0 30px 0;
+  height: initial;
 }
 .populaires h2 {
-  margin: 20px;
+  width: 60%;
+}
+.populaires_icone {
+  padding: 25px 0 0 0;
+  width: 10%;
+}
+.populaires h3 {
+  padding: 10px 5px;
+}
+.populaires_icone {
+  margin-right: 20px;
+}
+.populaires p {
+  margin: -40px 0 0 0;
+  padding: 0 5px 0 5px;
 }
 .populairescard {
   height: 130px;
   margin: 5px auto;
 }
-
-/* ACTIVITES */
-
-#activites {
-  display: initial;
-}
-.activites {
-  height: initial;
-  width: 100%;
-  padding: 10px 20px;
-}
-#activites h1 {
-  margin: 10px 0 0 10px;
-}
-.activitecard,
-.tallactivitecard,
-#ilesdufrioul,
-#fortdepomegues {
-  height: 160px;
-  margin: 15px 0;
-  width: 100%;
-}
-.activitecard img,
-.tallactivitecard img,
-#ilesdufrioul img,
-#fortdepomegues img {
-  width: 100%;
-  border-radius: 15px 15px 0px 0px;
-  height: 75%;
-  object-fit: cover;
-  object-position: center;
-}
-
-/* FOOTER */
-footer {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-  padding: 25px 10px;
-}
-footer ul {
-  padding: 0;
-}
-footer ul li {
-  margin: 10px 20px;
-}
-footer h2 {
-  padding: 15px 0 0 20px;
-}
-=======
-body {
-  padding: 0px;
-}
-
-/* TYPOGRAPHIE */
-h1 {
-  text-align: center;
-}
-h2 {
-  padding: 5px;
-  margin: 10px;
-}
-h3 {
-  padding: 0;
-}
-h4 {
-  padding-left: 20px;
-}
-
-/* HEADER */
-#header {
-  margin: 100px 10px 20px 10px;
-  padding: 0 10px;
-}
-#header .row p {
-  text-align: center;
-  margin-bottom: 30px;
-}
-.logo {
-  width: 30%;
-  max-width: 120px;
-  margin: 25px 20px 15px 30px;
-  padding: 0;
-}
-header {
-  padding: 0;
-  margin: 0;
-  display: initial;
-}
-
-/* NAV ET LI */
-nav {
-  width: 100%;
-}
-ul.nav {
-  padding: 0;
-}
-nav li a {
-  width: 50%;
-  border-bottom: 3px solid rgb(235, 235, 235);
-  border-top: none;
-  padding-bottom: 20px;
-  justify-content: space-around;
-}
-nav li a:hover {
-  color: #0065fc;
-  border-top: none;
-  border-bottom: 3px solid #0065fc;
-}
-nav li a:focus {
-  color: #0065fc;
-  border-top: none;
-  border-bottom: 3px solid #0065fc;
-}
-li {
-  padding-right: 0px;
-  margin: 0px;
-}
-nav ul li:first-child a {
-  color: #0065fc;
-  font-weight: 700;
-}
-#inscription {
-  margin-top: -80px;
-  padding-right: 0px;
-  border: none;
-}
-
-/* RECHERCHER */
-
-.search {
-  width: 90%;
-  margin: 10px auto;
-}
-#city {
-  width: 70%;
-  padding-left: 10px;
-  border-width: 2px;
-}
-#map {
-  width: 15%;
-}
-#button {
-  background-color: #0065fc;
-  color: white;
-  font-weight: 700;
-  border-radius: 10px;
-  font-family: "Raleway", sans-serif;
+.populairescard article {
   height: 100%;
-  display: flex;
-  justify-content: center;
-  width: 15%;
-}
-#button p {
-  display: none;
-}
-#button i {
-  display: initial;
-}
-
-/* FILTRES */
-
-#filtres {
-  display: initial;
-  padding: 0 50px;
-}
-#filtres p {
-  display: flex;
-  width: 100%;
-  padding-left: 10px;
-}
-#filtres ul li {
-  font-size: 14px;
-  margin: 5px;
-  padding-right: 10px;
-}
-
-/* INFO */
-.info {
-  float: left;
-  padding: 30px 10px 0 10px;
-}
-.info p {
-  text-align: initial;
-}
-.info i {
-}
-
-#hebergements_populaires {
-  display: flex;
-  width: 100%;
-  flex-direction: column-reverse;
-}
-/* HEBERGEMENT */
-
-.hebergement {
-  background-color: white;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-.hebergement h2 {
-  margin-left: 15px;
-  padding-left: 10px;
-  font-size: 18px;
-}
-.hebergement h3 {
-  margin: 5px;
-}
-.hebergementcard {
-  width: 90%;
-  height: 200px;
-}
-.hebergementcard img {
-  height: 65%;
-  object-position: center;
-}
-.hebergementcard p {
-  font-size: 12px;
-  margin-top: 0;
+  justify-content: space-between;
 }
 .rate {
-  font-size: 10px;
-}
-
-/* POPULAIRES */
-
-.populaires {
-  width: 90%;
-  float: initial;
-  justify-content: space-between;
-  margin: 20px auto;
-  height: 550px;
-}
-.populaires h2 {
-  margin: 20px;
-}
-.populairescard {
-  height: 130px;
-  margin: 5px auto;
+  margin-bottom: 10px;
 }
 
 /* ACTIVITES */
-
 #activites {
   display: initial;
 }
@@ -480,4 +493,3 @@ footer ul li {
 footer h2 {
   padding: 15px 0 0 20px;
 }
->>>>>>> d44629942beaee40fefdee279ad33ebd9d4ab1b4

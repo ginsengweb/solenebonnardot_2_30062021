@@ -244,12 +244,14 @@ nav ul li:first-child a {
 .populaires h2 {
   display: flex;
   float: left;
+  width: 80%;
 }
 .populaires_icone {
   font-size: 20px;
   display: flex;
   float: right;
   padding: 20px 5px;
+  width: 20%;
 }
 .populairescard {
   background-color: white;
@@ -311,10 +313,10 @@ article {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  justify-content: space-around;
   height: 380px;
-  justify-content: space-between;
-  margin-bottom: 60px;
-  padding: 10px;
+  margin: 20px auto 60px auto;
+  padding-left: 20px;
 }
 #activites h2 {
   width: 100%;
@@ -324,20 +326,20 @@ article {
   background-color: white;
   border-radius: 15px;
   box-shadow: 0px 0px 10px darkgray;
-  float: left;
+  /* float: left; */
   width: 22%;
-  height: 47%;
+  height: 45%;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 #fortdepomegues {
-  height: 55%;
+  height: 54%;
 }
 #fortdepomegues img {
   height: 80%;
 }
 #ilesdufrioul {
-  height: 40%;
+  height: 39%;
 }
 #ilesdufrioul img {
   object-position: top;
@@ -362,7 +364,7 @@ article {
   background-color: white;
   border-radius: 15px;
   box-shadow: 0px 0px 10px darkgray;
-  height: 100%;
+  height: 97%;
   width: 22%;
 }
 .tallactivitecard img {
@@ -384,7 +386,7 @@ article {
 /* FOOTER */
 footer {
   display: flex;
-  width: 100%;
+  margin: 0 -20px;
   background-color: #f2f2f2;
 }
 .sectionfooter {
