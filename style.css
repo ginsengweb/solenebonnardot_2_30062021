@@ -97,16 +97,16 @@ nav ul li:first-child a {
   margin: 15px 0;
   padding: 0;
   height: 45px;
-  width: 280px;
+  width: 380px;
   border-radius: 10px;
-  border: solid 3px #fff;
+  border: solid 1px #fff;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 #map {
   border-radius: 10px 0 0 10px;
-  width: 15%;
+  width: 13%;
   text-align: center;
   display: block;
 }
@@ -119,8 +119,12 @@ nav ul li:first-child a {
   display: flex;
   height: 100%;
   align-items: center;
+  justify-content: center;
   width: 35%;
   padding: 5px;
+}
+#button p {
+  font-weight: 600;
 }
 #button i {
   display: none;
@@ -131,10 +135,11 @@ nav ul li:first-child a {
   font-size: 14px;
   color: black;
   height: 100%;
-  width: 50%;
-  border: 3px solid #f2f2f2;
+  width: 55%;
+  border: 1px solid #f2f2f2;
   border-right: none;
   border-left: none;
+  padding: 15px;
 }
 
 /* FILTRES */
