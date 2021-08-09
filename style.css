@@ -146,7 +146,7 @@ nav ul li:first-child a {
 /* FILTRES */
 #filtres {
   display: flex;
-  margin: 30px 30px;
+  margin: 30px 0;
 }
 #filtres p {
   font-size: 16px;
@@ -163,7 +163,7 @@ nav ul li:first-child a {
   background-color: #deebff;
   padding: 10px;
   border-radius: 100%;
-  margin-right: 5px;
+  margin: -2px 5px -2px -2px;
 }
 #filtres ul li {
   border: solid 2px #d8d8d8;

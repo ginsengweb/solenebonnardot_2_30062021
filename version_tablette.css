@@ -62,6 +62,7 @@ header {
 }
 .populaires h2 {
   margin: 20px;
+  width: 60%;
 }
 .populairescard {
   height: 130px;
@@ -111,6 +112,7 @@ header {
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding: 20px;
 }
 footer ul {
   padding: 10px;
